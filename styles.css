@@ -1,0 +1,22 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    background-color: black;
+}
+
+.bigcontainer{
+    width: 1200;
+    height: 600;
+    border: 2px solid black;
+    background-image: url('images/spa.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: brown;
+}
+
