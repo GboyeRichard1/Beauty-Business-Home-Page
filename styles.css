@@ -21,7 +21,8 @@ body{
     background-color: brown;
     margin: 25px;
     padding-left: 120px;
-    padding-right: 80px;
+    padding-right: 30px;
+    
 }
 
 .navbar{
@@ -171,16 +172,68 @@ body{
 
 .beautifulwoman{
     
-    margin-left: -300px;
-    margin-top: -25px;
+    margin-left: -270px;
+    margin-top: -45px;
 }
 
 .bigimage{
-    width: 890px;
-    height:600px;
+    width: 880px;
+    height:620px;
 }
 
 
 .spacontent{
     display: flex;
 }
+
+.quote{
+    position: relative;
+}
+
+.quote1{
+   width: 240px;
+   height: 145px;
+   border-radius: 16px;
+   background: rgba(255, 255, 255, 0.50);
+   backdrop-filter: blur(8px);
+   padding: 14px;
+   position:absolute;
+   bottom: 230px;
+   right: 10px;
+}
+.quote2{
+    width: 240px;
+    height: 145px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.50);
+    backdrop-filter: blur(8px);
+    padding: 14px;
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+
+.stripe{
+    width: 20px;
+    height: 12px;
+    margin-bottom: 3px;
+}
+.stripe2{
+    width: 20px;
+    height: 13px;
+    margin-bottom: 3px;
+}
+
+.paragraph1, .paragraph2{
+    color: var(--Black, #070D15);
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.name{
+    margin-top: 5px;
+    font-size: 13px;
+    color: #264065;
+    font-weight: bold;
+}
+
