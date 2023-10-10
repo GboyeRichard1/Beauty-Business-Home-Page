@@ -12,7 +12,6 @@ body{
 }
 
 .container{
-    display: flex;
     width: 100%;
     height: 100%;
     border: 2px solid black;
@@ -21,16 +20,15 @@ body{
     background-repeat: no-repeat;
     background-color: brown;
     margin: 25px;
+    padding-left: 120px;
+    padding-right: 80px;
 }
 
 .navbar{
     display: flex;
     padding-top: 30px;
     justify-content: space-between;
-    padding-left: 120px;
-  
- 
- 
+    
     
 }
 .navleft{
@@ -99,3 +97,90 @@ body{
     font-weight: 600;
 }
 
+.groups{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    padding-left: 50px;
+    gap: 80px;
+ 
+}
+.firstgroup{
+    color: var(--Dark-Blue, #264065);
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.headings{
+  margin-top: 60px;  
+}
+.secondgroup{
+    color: var(--Gray-2, #909090);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 25px;
+    line-height: 24px;
+}
+
+.buttonandfriends{
+    display: flex;
+}
+
+.button{
+    margin-top: 25px;
+    background-color: #264065;
+    width: 140px;
+    height: 45px;
+    border-radius: 32px;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+
+.watchvideo{
+    width: 150;
+    height: 50px;
+}
+
+.icon, .icon2, .icon3{
+    width: 40px;
+    height: 40px;
+    justify-items: center;
+}
+
+.fifteen, .twentyfive, .hundred{
+    color: var(--Dark-Blue, #264065);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.special, .treatment1, .professional, .terapist, .herbal, .cream{
+    color: var(--Gray-2, #909090);
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+   
+}
+
+.beautifulwoman{
+    
+    margin-left: -300px;
+    margin-top: -25px;
+}
+
+.bigimage{
+    width: 890px;
+    height:600px;
+}
+
+
+.spacontent{
+    display: flex;
+}
